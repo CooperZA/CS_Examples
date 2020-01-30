@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">+
+</head> 
+<body>
+    <div id="wrapper">
+            <h1 id="link">Hello World!</h1>
+
+            <p>Welcome to my Website</p>
+        
+            <!-- begin table -->
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Zach</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>steve</td>
+                </tr>
+            </table>
+            <!-- end table -->
+        
+            <!-- unordered list -->
+            <p class="small">grocery list</p>
+            <ul>
+                <li>apple</li>
+                <li>banana</li>
+            </ul>
+        
+            <!-- ordered list -->
+            <p class="small">cool majors</p>
+            <ol>
+                <li>Comptuer Science</li>
+                <li>Engineering</li>
+            </ol>
+
+            <a href="nav.html">Navigation Example</a>
+            <a href="media_queries.html">Media Queries Example</a>
+    </div>
+</body>
+<script>
+
+    document.addEventListener("DOMContentLoaded", function(){
+
+        document.addEventListener('click', function(e){
+
+            if (event.target.matches("#link")){
+                window.open("https://www.google.com/");
+            }
+
+        });
+    });
+
+</script>
+</html>
