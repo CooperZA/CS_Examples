@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fence Pricing</title>
+    <style type="text/css">
+        body {
+          background-color: saddlebrown;
+          color: orange;
+          font-family: helvetica;
+          text-align: center;
+        }
+    
+        hr {
+          width: 15%;
+          color: darkorange;
+        }
+    
+        h1 {
+          color: white;
+        }
+    
+        section {
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        }
+      </style>
+</head>
+
+<body>
+    <h1>Fence Pricing</h1>
+    <hr />
+    <p>
+        <b>Fence Pricing Calculator<br />
+            Made by: Zach Cooper
+        </b>
+    </p>
+
+    <button onclick="length = prompt('Please enter the length', '1');">
+        Length
+    </button>
+
+    <button onclick="width = prompt('Please enter the width', '1');">
+        Width
+    </button>
+
+    <button onclick="fence_type = prompt('Please enter chainlink or wooden', 'Wooden');">
+        Fence Type
+    </button>
+
+    <button onclick="gates = prompt('Please enter the number of gates (1, 2, or 3)', '1');">
+        Gates
+    </button>
+
+    <button form="fence" onclick="fence_function(length, width, fence_type, gates);">
+        Total
+    </button>
+
+    <script src="fence.js"></script>
+
+</body>
+
+</html>
