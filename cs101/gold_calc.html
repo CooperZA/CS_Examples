@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gold Calculator</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            padding-bottom: 2rem;
+            font-weight: 2rem;
+        }
+        div{
+            text-align: center;
+        }
+        /* button {
+            background-color: aqua;
+            width: 1rem;
+            height: 0.5rem;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Gold Calculator</h1>
+    <div>
+        <h3>Enter how much gold you have(oz):</h3>
+        <input type="text" name="gold" id="gold">
+        <button type="submit" onclick="callback();">Submit</button>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+<script src="gold.js"></script>
+</html>
