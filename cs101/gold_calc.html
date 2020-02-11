@@ -18,19 +18,17 @@
         div{
             text-align: center;
         }
-        /* button {
-            background-color: aqua;
-            width: 1rem;
-            height: 0.5rem;
-        } */
     </style>
 </head>
 <body>
     <h1>Gold Calculator</h1>
     <div>
         <h3>Enter how much gold you have(oz):</h3>
-        <input type="text" name="gold" id="gold">
-        <button type="submit" onclick="callback();">Submit</button>
+        <!-- <input type="text" name="gold" id="gold"> -->
+        <button onclick="gold = prompt('Enter how much gold you have(oz):', '1');">
+            Gold Amount
+        </button>
+        <button onclick="goldCalc(gold);">Submit</button>
     </div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
