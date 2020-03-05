@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
     # display the menu until the key is found
     while loop == 1:
-        choice = menu(items,"What do you want to inspect?")
+        choice = menu(items,"What do you want to inspect? ")
 
         print("")
 
@@ -53,7 +53,7 @@ if __name__ == "__main__":
                 print("You found a small key in the", items[choice - 1])
                 key_found = "Yes"
             else:
-                print("You found nothing in the ", items[choice - 1])
+                print("You found nothing in the", items[choice - 1])
         elif choice == 5:
             if key_found == "Yes":
                 loop = 0
