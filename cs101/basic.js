@@ -15,6 +15,13 @@ let c = add(x, y);
 let a = 3;
 let b;
 let n;
+let val1 = 2;
+let val2 = 2;
+let val3;
+
+
+val3 = val2 + val1;
+
 
 const appl = 'apples';
 
