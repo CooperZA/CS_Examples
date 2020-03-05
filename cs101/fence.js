@@ -45,5 +45,3 @@ const fence_function = (length, width, type, gates) => {
 const double = (x) => {
     return x * 2;
 }
-
-
